@@ -1,0 +1,1 @@
+exec "/home/jacob/.steam/steam/steamapps/common/Proton 3.7/dist/bin/wine64" "DayZ_x64.exe" "-stresstest -dologs -nosplash -noPause -noBenchmark -scriptDebug=true"
