@@ -17,10 +17,6 @@ Make sure you are on the "stress test" beta branch on steam. See [this link](htt
 Place the ```scripts``` folder inside your DayZ game directory (```For example: C:\Program Files (x86)\Steam\steamapps\common\DayZ```).
 You will not be banned by BattlEye due to the BattlEye process not even being able to run!
 
-Go into the ```DayZ/Missions/DayZCommunityOfflineMode.ChernarusPlus/core/modules/ModuleManager.c``` and add the following line ```#include "missions\\DayZCommunityOfflineMode.ChernarusPlus\\core\\modules\\Helicopter\\module.c"``` at the top of the file.
-
-In the same file, where it has the function ```RegisterModules```, add the following line at the end of the function ```m_Modules.Insert( new HeliKeyBinds );```.
-
 Now you now start the script ```DayZ-Linux.sh``` to start the game. You will be loaded directly into a rudimetry offline mode. No loot or infected will spawn due to proper mission loading not working.
 
 To uninstall this modification, simple delete the folder ```scripts```.
